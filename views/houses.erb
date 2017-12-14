@@ -1,0 +1,16 @@
+<table>
+
+
+  <tr>
+    <th>Name</th>
+    <th>Logo</th>
+  </tr>
+
+<% @houses.each do |house| %>
+<tr>
+<td><%= house.name %></td>
+<td><img src=" <%= house.logo %>" alt="" width="50px" height="50px"></td>
+</tr>
+<% end %>
+
+</table>
